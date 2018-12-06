@@ -11,6 +11,7 @@
   padding: 50px 20px;
   margin: 0 auto;
   position: relative;
+  
 }
 .cards-wrap:hover .card {
   animation-play-state: paused;
@@ -25,6 +26,7 @@
   display: inline-block;
   position: absolute;
   top: 50%;
+  box-shadow: 0px 15px 40px 0px #000;
 }
 .card h2 {
   font-size: 25px;
@@ -78,19 +80,19 @@
 
 .card:nth-child(1) {
   left: 70px;
-  transform: translate(-50%, -50%) scale(0.8);
+  transform: translate(-50%, -25%) scale(0.8);
   z-index: 2;
   animation: card1 8s linear infinite;
 }
 .card:nth-child(2) {
   left: 215px;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -35%) scale(1);
   z-index: 2;
   animation: card2 8s linear infinite;
 }
 .card:nth-child(3) {
   left: 390px;
-  transform: translate(-50%, -50%) scale(1.2);
+  transform: translate(-50%, -45%) scale(1.2);
   z-index: 2;
   animation: card3 8s linear infinite;
 }
@@ -102,19 +104,19 @@
 }
 .card:nth-child(5) {
   left: 785px;
-  transform: translate(-50%, -50%) scale(1.2);
+  transform: translate(-50%, -45%) scale(1.2);
   z-index: 2;
   animation: card5 8s linear infinite;
 }
 .card:nth-child(6) {
   left: 960px;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -35%) scale(1);
   z-index: 2;
   animation: card6 8s linear infinite;
 }
 .card:nth-child(7) {
   left: 94%;
-  transform: translate(-50%, -50%) scale(0.8);
+  transform: translate(-50%, -25%) scale(0.8);
   z-index: 2;
   animation: card7 8s linear infinite;
 }
@@ -122,37 +124,37 @@
 @keyframes card1 {
   0% {
     left: 70px;
-  transform: translate(-50%, -50%) scale(0.8);
-  z-index: 2;
+    transform: translate(-50%, -25%) scale(0.8);
+    z-index: 2;
   }
   14.29% {
     left: 215px;
-  transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
   z-index: 2;
   }
   28.57% {
     left: 390px;
-  transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
   z-index: 2;
   }
   42.86% {
     left: 588px;
-  transform: translate(-50%, -50%) scale(1.3);
+    transform: translate(-50%, -50%) scale(1.3);
   z-index: 2;
   }
   57.17% {
 	left: 785px;
-	transform: translate(-50%, -50%) scale(1.2);
+  transform: translate(-50%, -45%) scale(1.2);
 	z-index: 2;
   }
   71.47% {
 	left: 960px;
-	transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -35%) scale(1);
 	z-index: 2;
   }
   85.7% {
     left: 94%;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 2;
   }
   85.71% {
@@ -163,14 +165,14 @@
   }
   100% {
     left: 70px;
-  transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
   z-index: 2;
   }
 }
 @keyframes card7 {
   0% {
 	left: 94%;
-	transform: translate(-50%, -50%) scale(0.8);
+	transform: translate(-50%, -25%) scale(0.8);
 	z-index: 0;
   }
   14.28% {
@@ -178,17 +180,17 @@
   }
   14.29% {
     left: 70px;
-  transform: translate(-50%, -50%) scale(0.8);
+  transform: translate(-50%, -25%) scale(0.8);
   z-index: 2;
   }
   28.57% {
     left: 215px;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -35%) scale(1);
   z-index: 2;
   }
   42.86% {
     left: 390px;
-  transform: translate(-50%, -50%) scale(1.2);
+  transform: translate(-50%, -45%) scale(1.2);
   z-index: 2;
   }
   57.17% {
@@ -198,29 +200,29 @@
   }
   71.47% {
 	left: 785px;
-	transform: translate(-50%, -50%) scale(1.2);
+	transform: translate(-50%, -45%) scale(1.2);
 	z-index: 2;
   }
   85.71% {
     left: 960px;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -35%) scale(1);
   z-index: 2;
   }
   100% {
     left: 94%;
-  transform: translate(-50%, -50%) scale(0.8);
+  transform: translate(-50%, -25%) scale(0.8);
   z-index: 0;
   }
 }
 @keyframes card2 {
   0% {
     left: 215px;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -35%) scale(1);
   z-index: 2;
   }
   14.29% {
     left: 390px;
-  transform: translate(-50%, -50%) scale(1.2);
+  transform: translate(-50%, -45%) scale(1.2);
   z-index: 2;
   }
   28.57% {
@@ -230,34 +232,34 @@
   }
   42.86% {
 	left: 785px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 3;
   }
   57.17% {
     left: 960px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 3;
   }
   71.47% {
     left: 94%;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 0;
   }
   85.71% {
     left: 70px;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 2;
   }
   100% {
 	left: 215px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 2;
   }
 }
 @keyframes card3 {
   0% {
     left: 390px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 2;
   }
   14.29% {
@@ -267,17 +269,17 @@
   }
   28.57% {
 	left: 785px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 3;
   }
   42.86% {
 	left: 960px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 2;
   }
   57.15% {
     left: 94%;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 2;
   }
   57.20% {
@@ -288,17 +290,17 @@
   }
   71.47% {
     left: 70px;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 2;
   }
   85.71% {
     left: 215px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 3;
   }
   100% {
     left: 390px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 2;
   }
 }
@@ -310,12 +312,12 @@
   }
   14.29% {
     left: 785px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 2;
   }
   28.57% {
     left: 960px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 2;
   }
   42.76% {
@@ -323,7 +325,7 @@
   }
   42.86% {
     left: 94%;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 0;
   }
   57% {
@@ -331,17 +333,17 @@
   }
   57.15% {
     left: 70px;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 2;
   }
   71.43% {
     left: 215px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 2;
   }
   85.71% {
     left: 390px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 2;
   }
   100% {
@@ -353,17 +355,17 @@
 @keyframes card5 {
   0% {
     left: 785px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 2;
   }
   14.29% {
     left: 960px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 2;
   }
   28.57% {
     left: 94%;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 2;
   }
   28.6% {
@@ -374,17 +376,17 @@
   }
   42.9% {
     left: 70px;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 2;
   }
   57.17% {
     left: 215px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 2;
   }
   71.43% {
 	left: 390px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 2;
   }
   85.71% {
@@ -393,14 +395,14 @@
   }
   100% {
 	left: 785px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 2;
   }
 }
 @keyframes card6 {
   0% {
 	left: 960px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 2;
   }
   14.29% {
@@ -408,7 +410,7 @@
   }
   14.3% {
     left: 94%;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 0;
   }
   28.47% {
@@ -416,17 +418,17 @@
   }
   28.57% {
     left: 70px;
-    transform: translate(-50%, -50%) scale(0.8);
+    transform: translate(-50%, -25%) scale(0.8);
     z-index: 2;
   }
   42.86% {
     left: 215px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 2;
   }
   57.15% {
 	left: 390px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 2;
   }
   71.43% {
@@ -436,12 +438,12 @@
   }
   85.71% {
     left: 785px;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -45%) scale(1.2);
     z-index: 2;
   }
   100% {
 	left: 960px;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -35%) scale(1);
     z-index: 2;
   }
 }
